@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */; };
+		43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */; };
+		43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */; };
+		43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD812B1FC77600CF05A3 /* ClucksList.swift */; };
+		43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD832B1FC8B400CF05A3 /* ModelData.swift */; };
+		43D0AD862B1FC9F300CF05A3 /* Clucks.json in Resources */ = {isa = PBXBuildFile; fileRef = 43D0AD852B1FC9F300CF05A3 /* Clucks.json */; };
+		43D0AD8B2B200CF800CF05A3 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */; };
+		43DDA8BB2B0D06C20010B71F /* cluckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDA8BA2B0D06C20010B71F /* cluckerApp.swift */; };
+		43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDA8BC2B0D06C20010B71F /* ContentView.swift */; };
+		43DDA8BF2B0D06C40010B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DDA8BE2B0D06C40010B71F /* Assets.xcassets */; };
+		43DDA8C22B0D06C40010B71F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DDA8C12B0D06C40010B71F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeCluckView.swift; sourceTree = "<group>"; };
+		43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cluck.swift; sourceTree = "<group>"; };
+		43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluckRow.swift; sourceTree = "<group>"; };
+		43D0AD812B1FC77600CF05A3 /* ClucksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClucksList.swift; sourceTree = "<group>"; };
+		43D0AD832B1FC8B400CF05A3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		43D0AD852B1FC9F300CF05A3 /* Clucks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Clucks.json; sourceTree = "<group>"; };
+		43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		43DDA8B72B0D06C20010B71F /* clucker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clucker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DDA8BA2B0D06C20010B71F /* cluckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cluckerApp.swift; sourceTree = "<group>"; };
+		43DDA8BC2B0D06C20010B71F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43DDA8BE2B0D06C40010B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43DDA8C12B0D06C40010B71F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43DDA8B42B0D06C20010B71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D0AD872B1FCA1900CF05A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43D0AD852B1FC9F300CF05A3 /* Clucks.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		43D0AD882B1FCA2500CF05A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43DDA8BC2B0D06C20010B71F /* ContentView.swift */,
+				43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */,
+				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
+				43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */,
+				43D0AD812B1FC77600CF05A3 /* ClucksList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43D0AD892B1FCA2B00CF05A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43D0AD832B1FC8B400CF05A3 /* ModelData.swift */,
+				43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43DDA8AE2B0D06C20010B71F = {
+			isa = PBXGroup;
+			children = (
+				43DDA8B92B0D06C20010B71F /* clucker */,
+				43DDA8B82B0D06C20010B71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43DDA8B82B0D06C20010B71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43DDA8B72B0D06C20010B71F /* clucker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43DDA8B92B0D06C20010B71F /* clucker */ = {
+			isa = PBXGroup;
+			children = (
+				43DDA8BA2B0D06C20010B71F /* cluckerApp.swift */,
+				43D0AD892B1FCA2B00CF05A3 /* Model */,
+				43D0AD882B1FCA2500CF05A3 /* Views */,
+				43D0AD872B1FCA1900CF05A3 /* Resources */,
+				43DDA8BE2B0D06C40010B71F /* Assets.xcassets */,
+				43DDA8C02B0D06C40010B71F /* Preview Content */,
+			);
+			path = clucker;
+			sourceTree = "<group>";
+		};
+		43DDA8C02B0D06C40010B71F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43DDA8C12B0D06C40010B71F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43DDA8B62B0D06C20010B71F /* clucker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43DDA8C52B0D06C40010B71F /* Build configuration list for PBXNativeTarget "clucker" */;
+			buildPhases = (
+				43DDA8B32B0D06C20010B71F /* Sources */,
+				43DDA8B42B0D06C20010B71F /* Frameworks */,
+				43DDA8B52B0D06C20010B71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clucker;
+			productName = clucker;
+			productReference = 43DDA8B72B0D06C20010B71F /* clucker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43DDA8AF2B0D06C20010B71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					43DDA8B62B0D06C20010B71F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 43DDA8B22B0D06C20010B71F /* Build configuration list for PBXProject "clucker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43DDA8AE2B0D06C20010B71F;
+			productRefGroup = 43DDA8B82B0D06C20010B71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43DDA8B62B0D06C20010B71F /* clucker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43DDA8B52B0D06C20010B71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DDA8C22B0D06C40010B71F /* Preview Assets.xcassets in Resources */,
+				43DDA8BF2B0D06C40010B71F /* Assets.xcassets in Resources */,
+				43D0AD862B1FC9F300CF05A3 /* Clucks.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43DDA8B32B0D06C20010B71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */,
+				43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */,
+				43DDA8BB2B0D06C20010B71F /* cluckerApp.swift in Sources */,
+				43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */,
+				43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */,
+				43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */,
+				43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */,
+				43D0AD8B2B200CF800CF05A3 /* LikeButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43DDA8C32B0D06C40010B71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43DDA8C42B0D06C40010B71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43DDA8C62B0D06C40010B71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clucker/Preview Content\"";
+				DEVELOPMENT_TEAM = E5DU27RQ7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcturner.clucker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43DDA8C72B0D06C40010B71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clucker/Preview Content\"";
+				DEVELOPMENT_TEAM = E5DU27RQ7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcturner.clucker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43DDA8B22B0D06C20010B71F /* Build configuration list for PBXProject "clucker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DDA8C32B0D06C40010B71F /* Debug */,
+				43DDA8C42B0D06C40010B71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43DDA8C52B0D06C40010B71F /* Build configuration list for PBXNativeTarget "clucker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DDA8C62B0D06C40010B71F /* Debug */,
+				43DDA8C72B0D06C40010B71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43DDA8AF2B0D06C20010B71F /* Project object */;
+}
