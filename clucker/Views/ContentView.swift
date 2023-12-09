@@ -18,7 +18,7 @@ struct ContentView: View {
                         .frame(width: 64.0, height: 64.0)
                 }
                 
-                ClucksList()
+                ClucksList(clucks: clucksByFeed)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(
@@ -36,8 +36,8 @@ struct ContentView: View {
                             ComposeCluckView()
                         }
                         Spacer()
-                        Button("Profile") {
-                            print("Open Profile View")
+                        NavigationLink("Profile") {
+                            ProfileView()
                         }
                     }
 

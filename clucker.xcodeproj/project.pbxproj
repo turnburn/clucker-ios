@@ -18,6 +18,12 @@
 		43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDA8BC2B0D06C20010B71F /* ContentView.swift */; };
 		43DDA8BF2B0D06C40010B71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DDA8BE2B0D06C40010B71F /* Assets.xcassets */; };
 		43DDA8C22B0D06C40010B71F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DDA8C12B0D06C40010B71F /* Preview Assets.xcassets */; };
+		43F6069B2B25064A00B989A4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6069A2B25064A00B989A4 /* ProfileView.swift */; };
+		43F6069D2B2506BA00B989A4 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */; };
+		43F6069F2B25091600B989A4 /* Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6069E2B25091600B989A4 /* Follow.swift */; };
+		43F606A42B250DCE00B989A4 /* Followers.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A12B250DCE00B989A4 /* Followers.json */; };
+		43F606A52B250DCE00B989A4 /* Following.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A22B250DCE00B989A4 /* Following.json */; };
+		43F606A72B250E3400B989A4 /* ClucksByAuthor.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A62B250E3400B989A4 /* ClucksByAuthor.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,12 @@
 		43DDA8BC2B0D06C20010B71F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43DDA8BE2B0D06C40010B71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43DDA8C12B0D06C40010B71F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43F6069A2B25064A00B989A4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		43F6069E2B25091600B989A4 /* Follow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follow.swift; sourceTree = "<group>"; };
+		43F606A12B250DCE00B989A4 /* Followers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Followers.json; sourceTree = "<group>"; };
+		43F606A22B250DCE00B989A4 /* Following.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Following.json; sourceTree = "<group>"; };
+		43F606A62B250E3400B989A4 /* ClucksByAuthor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClucksByAuthor.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				43D0AD852B1FC9F300CF05A3 /* Clucks.json */,
+				43F606A62B250E3400B989A4 /* ClucksByAuthor.json */,
+				43F606A12B250DCE00B989A4 /* Followers.json */,
+				43F606A22B250DCE00B989A4 /* Following.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -62,6 +77,8 @@
 				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
 				43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */,
 				43D0AD812B1FC77600CF05A3 /* ClucksList.swift */,
+				43F6069A2B25064A00B989A4 /* ProfileView.swift */,
+				43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,6 +88,7 @@
 			children = (
 				43D0AD832B1FC8B400CF05A3 /* ModelData.swift */,
 				43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */,
+				43F6069E2B25091600B989A4 /* Follow.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F606A72B250E3400B989A4 /* ClucksByAuthor.json in Resources */,
+				43F606A52B250DCE00B989A4 /* Following.json in Resources */,
+				43F606A42B250DCE00B989A4 /* Followers.json in Resources */,
 				43DDA8C22B0D06C40010B71F /* Preview Assets.xcassets in Resources */,
 				43DDA8BF2B0D06C40010B71F /* Assets.xcassets in Resources */,
 				43D0AD862B1FC9F300CF05A3 /* Clucks.json in Resources */,
@@ -184,12 +205,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */,
+				43F6069B2B25064A00B989A4 /* ProfileView.swift in Sources */,
 				43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */,
 				43DDA8BB2B0D06C20010B71F /* cluckerApp.swift in Sources */,
 				43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */,
 				43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */,
 				43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */,
 				43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */,
+				43F6069F2B25091600B989A4 /* Follow.swift in Sources */,
+				43F6069D2B2506BA00B989A4 /* ProfileHeader.swift in Sources */,
 				43D0AD8B2B200CF800CF05A3 /* LikeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

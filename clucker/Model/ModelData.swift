@@ -7,7 +7,11 @@
 
 import Foundation
 
-var clucks: [Cluck] = load("Clucks.json")
+var clucksByFeed: [Cluck] = load("Clucks.json")
+var clucksByUser: [Cluck] = load("ClucksByAuthor.json")
+var following: [Follow] = load("Following.json");
+var followers: [Follow] = load("Followers.json");
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

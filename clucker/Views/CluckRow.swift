@@ -68,5 +68,5 @@ struct CluckRow: View {
 }
 
 #Preview {
-    CluckRow(Cluck : clucks[0])
+    CluckRow(Cluck : clucksByFeed[0])
 }
