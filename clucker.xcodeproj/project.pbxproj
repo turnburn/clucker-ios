@@ -24,6 +24,9 @@
 		43F606A42B250DCE00B989A4 /* Followers.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A12B250DCE00B989A4 /* Followers.json */; };
 		43F606A52B250DCE00B989A4 /* Following.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A22B250DCE00B989A4 /* Following.json */; };
 		43F606A72B250E3400B989A4 /* ClucksByAuthor.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F606A62B250E3400B989A4 /* ClucksByAuthor.json */; };
+		43F606A92B25130700B989A4 /* FollowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606A82B25130700B989A4 /* FollowRow.swift */; };
+		43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AA2B2515F000B989A4 /* FollowList.swift */; };
+		43F606AD2B25177000B989A4 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AC2B25177000B989A4 /* FollowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		43F606A12B250DCE00B989A4 /* Followers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Followers.json; sourceTree = "<group>"; };
 		43F606A22B250DCE00B989A4 /* Following.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Following.json; sourceTree = "<group>"; };
 		43F606A62B250E3400B989A4 /* ClucksByAuthor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ClucksByAuthor.json; sourceTree = "<group>"; };
+		43F606A82B25130700B989A4 /* FollowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowRow.swift; sourceTree = "<group>"; };
+		43F606AA2B2515F000B989A4 /* FollowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowList.swift; sourceTree = "<group>"; };
+		43F606AC2B25177000B989A4 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				43D0AD812B1FC77600CF05A3 /* ClucksList.swift */,
 				43F6069A2B25064A00B989A4 /* ProfileView.swift */,
 				43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */,
+				43F606A82B25130700B989A4 /* FollowRow.swift */,
+				43F606AA2B2515F000B989A4 /* FollowList.swift */,
+				43F606AC2B25177000B989A4 /* FollowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,9 +215,12 @@
 			files = (
 				43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */,
 				43F6069B2B25064A00B989A4 /* ProfileView.swift in Sources */,
+				43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */,
+				43F606AD2B25177000B989A4 /* FollowView.swift in Sources */,
 				43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */,
 				43DDA8BB2B0D06C20010B71F /* cluckerApp.swift in Sources */,
 				43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */,
+				43F606A92B25130700B989A4 /* FollowRow.swift in Sources */,
 				43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */,
 				43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */,
 				43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */,
