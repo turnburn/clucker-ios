@@ -36,23 +36,26 @@ struct CluckRow: View {
                     Text(Cluck.author)
                         .font(.system(size: 20, design: .monospaced))
                         .bold()
+
                     Spacer()
-                    Button {
-                        showLikes = !showLikes;
-                    } label: {
-                        Image("stats")
-                            .resizable()
-                            .frame(width: 32.0, height: 32.0)
-                            .popover(isPresented: self.$showLikes,
-                                             attachmentAnchor: .point(.center),
-                                             arrowEdge: .top,
-                                             content: {
-                                        Text("2 likes\n\nuser 1\nuser 2")
-                                            .padding(20)
-                                            .presentationCompactAdaptation(.none)
-                                            .font(.system(size: 15, weight: .bold, design: .monospaced)).foregroundColor(.black)
-                                    })
-                    }
+
+                    Image("stats")
+                        .resizable()
+                        .frame(width: 32.0, height: 32.0)
+                        .popover(isPresented: self.$showLikes,
+                                         attachmentAnchor: .point(.center),
+                                         arrowEdge: .top,
+                                         content: {
+                                    Text("2 likes\n\nuser 1\nuser 2")
+                                        .padding(20)
+                                        .presentationCompactAdaptation(.none)
+                                        .font(.system(size: 15, weight: .bold, design: .monospaced)).foregroundColor(.black)
+                                })
+                        .onTapGesture {
+                            showLikes = !showLikes
+                        }
+
+ 
 
                 }
 
