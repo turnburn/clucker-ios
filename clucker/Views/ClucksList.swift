@@ -11,6 +11,8 @@ import SwiftUI
 struct ClucksList: View {
     var clucks = [Cluck]()
     
+
+    
     var body: some View {
         List(clucks, id: \.id) { cluck in
             CluckRow(Cluck: cluck)

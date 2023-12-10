@@ -48,7 +48,8 @@ struct SearchView: View {
                 
                 VStack(){
                     HStack{
-                        Text("Results")                               .font(.system(size: 20, weight: .bold, design: .monospaced)).foregroundColor(.black)
+                        Text("Results")
+                        .font(.system(size: 20, weight: .bold, design: .monospaced)).foregroundColor(.black)
                             
                     }
                     .padding()

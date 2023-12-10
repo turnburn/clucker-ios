@@ -10,6 +10,7 @@ import SwiftUI
 struct CluckRow: View {
     var Cluck : Cluck
     var CluckDate : Date;
+    @State private var showLikes = false;
     
     let formatter = ISO8601DateFormatter();
     
@@ -36,9 +37,23 @@ struct CluckRow: View {
                         .font(.system(size: 20, design: .monospaced))
                         .bold()
                     Spacer()
-                    Image("stats")
-                        .resizable()
-                        .frame(width: 32.0, height: 32.0)
+                    Button {
+                        showLikes = !showLikes;
+                    } label: {
+                        Image("stats")
+                            .resizable()
+                            .frame(width: 32.0, height: 32.0)
+                            .popover(isPresented: self.$showLikes,
+                                             attachmentAnchor: .point(.center),
+                                             arrowEdge: .top,
+                                             content: {
+                                        Text("2 likes\n\nuser 1\nuser 2")
+                                            .padding(20)
+                                            .presentationCompactAdaptation(.none)
+                                            .font(.system(size: 15, weight: .bold, design: .monospaced)).foregroundColor(.black)
+                                    })
+                    }
+
                 }
 
                 Text(Cluck.content)
