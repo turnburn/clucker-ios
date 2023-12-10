@@ -28,8 +28,8 @@ struct ContentView: View {
                 ToolbarItem(placement: .bottomBar) {
                     
                     HStack {
-                        Button("Search") {
-                            print("Open Search View")
+                        NavigationLink("Search") {
+                            SearchView()
                         }
                         Spacer()
                         NavigationLink("Cluck") {

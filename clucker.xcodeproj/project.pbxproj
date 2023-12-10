@@ -28,6 +28,7 @@
 		43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AA2B2515F000B989A4 /* FollowList.swift */; };
 		43F606AD2B25177000B989A4 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AC2B25177000B989A4 /* FollowView.swift */; };
 		43F606AF2B25426900B989A4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AE2B25426900B989A4 /* EditProfileView.swift */; };
+		43F606B12B254CD900B989A4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606B02B254CD900B989A4 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		43F606AA2B2515F000B989A4 /* FollowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowList.swift; sourceTree = "<group>"; };
 		43F606AC2B25177000B989A4 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
 		43F606AE2B25426900B989A4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		43F606B02B254CD900B989A4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				43DDA8BC2B0D06C20010B71F /* ContentView.swift */,
+				43F606B02B254CD900B989A4 /* SearchView.swift */,
 				43F606AE2B25426900B989A4 /* EditProfileView.swift */,
 				43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */,
 				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
@@ -228,6 +231,7 @@
 				43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */,
 				43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */,
 				43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */,
+				43F606B12B254CD900B989A4 /* SearchView.swift in Sources */,
 				43F6069F2B25091600B989A4 /* Follow.swift in Sources */,
 				43F6069D2B2506BA00B989A4 /* ProfileHeader.swift in Sources */,
 				43D0AD8B2B200CF800CF05A3 /* LikeButton.swift in Sources */,
