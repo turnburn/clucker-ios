@@ -27,6 +27,7 @@
 		43F606A92B25130700B989A4 /* FollowRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606A82B25130700B989A4 /* FollowRow.swift */; };
 		43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AA2B2515F000B989A4 /* FollowList.swift */; };
 		43F606AD2B25177000B989A4 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AC2B25177000B989A4 /* FollowView.swift */; };
+		43F606AF2B25426900B989A4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F606AE2B25426900B989A4 /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		43F606A82B25130700B989A4 /* FollowRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowRow.swift; sourceTree = "<group>"; };
 		43F606AA2B2515F000B989A4 /* FollowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowList.swift; sourceTree = "<group>"; };
 		43F606AC2B25177000B989A4 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		43F606AE2B25426900B989A4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				43DDA8BC2B0D06C20010B71F /* ContentView.swift */,
+				43F606AE2B25426900B989A4 /* EditProfileView.swift */,
 				43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */,
 				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
 				43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F606AF2B25426900B989A4 /* EditProfileView.swift in Sources */,
 				43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */,
 				43F6069B2B25064A00B989A4 /* ProfileView.swift in Sources */,
 				43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */,

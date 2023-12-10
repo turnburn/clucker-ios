@@ -31,6 +31,7 @@ struct CluckRow: View {
         {
             VStack(alignment: .leading) {
                 HStack{
+                    
                     Text(Cluck.author)
                         .font(.system(size: 20, design: .monospaced))
                         .bold()

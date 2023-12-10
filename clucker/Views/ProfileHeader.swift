@@ -18,9 +18,14 @@ struct ProfileHeader: View {
                             .font(.system(size: 20, design: .monospaced))
                             .bold()
                         Spacer()
-                        Image("settings")
-                            .resizable()
-                            .frame(width: 32.0, height: 32.0)
+                        
+                        NavigationLink(destination: EditProfileView(),
+                        label: {
+                            Image("settings")
+                                .resizable()
+                                .frame(width: 32.0, height: 32.0)
+                        })
+
                     }
                     
                     HStack(alignment: .top)  {
