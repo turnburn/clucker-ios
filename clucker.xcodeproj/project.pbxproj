@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43C6D4402B29FBB70076EA02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6D43F2B29FBB70076EA02 /* LoginView.swift */; };
 		43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */; };
 		43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */; };
 		43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43C6D43F2B29FBB70076EA02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeCluckView.swift; sourceTree = "<group>"; };
 		43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cluck.swift; sourceTree = "<group>"; };
 		43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluckRow.swift; sourceTree = "<group>"; };
@@ -68,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43C6D43E2B29FB740076EA02 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
+				43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */,
+				43D0AD812B1FC77600CF05A3 /* ClucksList.swift */,
+				43F606A82B25130700B989A4 /* FollowRow.swift */,
+				43F606AA2B2515F000B989A4 /* FollowList.swift */,
+				43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		43D0AD872B1FCA1900CF05A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,14 +101,9 @@
 				43F606B02B254CD900B989A4 /* SearchView.swift */,
 				43F606AE2B25426900B989A4 /* EditProfileView.swift */,
 				43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */,
-				43D0AD8A2B200CF800CF05A3 /* LikeButton.swift */,
-				43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */,
-				43D0AD812B1FC77600CF05A3 /* ClucksList.swift */,
 				43F6069A2B25064A00B989A4 /* ProfileView.swift */,
-				43F6069C2B2506BA00B989A4 /* ProfileHeader.swift */,
-				43F606A82B25130700B989A4 /* FollowRow.swift */,
-				43F606AA2B2515F000B989A4 /* FollowList.swift */,
 				43F606AC2B25177000B989A4 /* FollowView.swift */,
+				43C6D43F2B29FBB70076EA02 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +139,7 @@
 			children = (
 				43DDA8BA2B0D06C20010B71F /* cluckerApp.swift */,
 				43D0AD892B1FCA2B00CF05A3 /* Model */,
+				43C6D43E2B29FB740076EA02 /* Components */,
 				43D0AD882B1FCA2500CF05A3 /* Views */,
 				43D0AD872B1FCA1900CF05A3 /* Resources */,
 				43DDA8BE2B0D06C40010B71F /* Assets.xcassets */,
@@ -229,6 +240,7 @@
 				43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */,
 				43F606A92B25130700B989A4 /* FollowRow.swift in Sources */,
 				43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */,
+				43C6D4402B29FBB70076EA02 /* LoginView.swift in Sources */,
 				43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */,
 				43D0AD842B1FC8B400CF05A3 /* ModelData.swift in Sources */,
 				43F606B12B254CD900B989A4 /* SearchView.swift in Sources */,

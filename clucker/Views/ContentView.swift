@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     var body: some View {
         NavigationStack {
-            
             VStack {
                 HStack {
                     Image("chicken_bg_white")
@@ -43,8 +45,10 @@ struct ContentView: View {
 
                 }
             }
-            
         }
+        .navigationBarTitle("")
+        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(true)
     }
     
 }
