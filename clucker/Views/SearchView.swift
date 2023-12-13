@@ -17,19 +17,20 @@ struct SearchView: View {
                 VStack(alignment: .leading)
                 {
                     Text("Find other users")
-                        .padding()
+                        .padding(20)
                         .font(.system(size: 20, weight: .bold, design: .monospaced)).foregroundColor(.black)
+                        .frame(maxWidth: 400, maxHeight: 50)
                     
                     HStack {
                         TextField("Username", text: $searchText)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .padding()
+                            .padding(20)
                         
                         //Submit Cluck Button
                         Button("Search") {
                             print("Button tapped!")
                         }
-                        .padding()
+                        .padding(10)
                         .background(.black)
                         .cornerRadius(20) /// make the background rounded
                         .overlay( /// apply a rounded border
@@ -38,6 +39,8 @@ struct SearchView: View {
                         )
                         .font(.system(size: 10, weight: .regular, design: .monospaced)).foregroundColor(.white)
                     }
+                    .padding(10)
+                    .frame(maxWidth: 400, maxHeight: 80)
                 }
                 .background(.white)
                 .cornerRadius(20) /// make the background rounded
@@ -45,6 +48,7 @@ struct SearchView: View {
                     RoundedRectangle(cornerRadius: 20)
                         .strokeBorder(.black, lineWidth: 8, antialiased: true)
                 )
+                .padding()
                 
                 VStack(){
                     HStack{
@@ -62,6 +66,7 @@ struct SearchView: View {
                     RoundedRectangle(cornerRadius: 20)
                         .strokeBorder(.black, lineWidth: 8, antialiased: true)
                 )
+                .padding(10)
                 
 
                 

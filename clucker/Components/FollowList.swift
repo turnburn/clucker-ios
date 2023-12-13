@@ -12,7 +12,7 @@ struct FollowList: View {
     
     var body: some View {
         List(follows, id: \.id) { follow in
-            FollowRow(follow: follow)
+            FollowRow(follow: follow, isFollowing: true)
         }
         .scrollContentBackground(.hidden)
     }

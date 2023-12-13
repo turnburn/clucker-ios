@@ -10,6 +10,8 @@ import SwiftUI
 struct FollowRow: View {
     var follow : Follow
     
+    @State var isFollowing: Bool
+    
     var body: some View {
         HStack{
             VStack(alignment: .leading) {
@@ -22,8 +24,8 @@ struct FollowRow: View {
             }
             Spacer()
             //Submit Cluck Button
-            Button("Follow") {
-                print("Follow Button tapped!")
+            Button(isFollowing ? "Following" : "Follow") {
+                isFollowing.toggle()
             }
             .padding()
             .background(.cyan)
@@ -39,5 +41,5 @@ struct FollowRow: View {
 }
 
 #Preview {
-    FollowRow(follow: following[0])
+    FollowRow(follow: following[0], isFollowing: true)
 }
