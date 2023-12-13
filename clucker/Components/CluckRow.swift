@@ -67,9 +67,7 @@ struct CluckRow: View {
                     Text(CluckDate.formatted(date: Date.FormatStyle.DateStyle.abbreviated, time: .shortened))
                         .font(.system(size: 14))
                     Spacer()
-                    Image("like")
-                        .resizable()
-                        .frame(width: 32.0, height: 32.0)
+                    LikeButton(isSet: false)
                 }
                     
             }

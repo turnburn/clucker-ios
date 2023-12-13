@@ -9,19 +9,26 @@ import SwiftUI
 
 struct LikeButton: View {
     
-    @Binding var isSet: Bool
+    @State var isSet: Bool
     
     var body: some View {
         Button {
             isSet.toggle()
         } label: {
-            Label("Like", systemImage: isSet ? "heart.fill" : "heart")
-                .labelStyle(.iconOnly)
-                .foregroundStyle(isSet ? .red : .white)
+            if(isSet){
+                Image("like.fill")
+                    .resizable()
+                    .frame(width: 32.0, height: 32.0)
+            }
+            else{
+                Image("like")
+                    .resizable()
+                    .frame(width: 32.0, height: 32.0)
+            }
         }
     }
 }
 
 #Preview {
-    LikeButton(isSet: .constant(true))
+    LikeButton(isSet: false)
 }
