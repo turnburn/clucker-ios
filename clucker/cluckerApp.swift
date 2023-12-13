@@ -11,7 +11,7 @@ import SwiftUI
 struct cluckerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
