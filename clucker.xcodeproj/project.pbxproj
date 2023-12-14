@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43C6D4402B29FBB70076EA02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6D43F2B29FBB70076EA02 /* LoginView.swift */; };
+		43C6D4422B2B5B6C0076EA02 /* CluckerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6D4412B2B5B6B0076EA02 /* CluckerApi.swift */; };
 		43C948DC2B22CD8A0031373F /* ComposeCluckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */; };
 		43D0AD7E2B1FC4ED00CF05A3 /* Cluck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */; };
 		43D0AD802B1FC57100CF05A3 /* CluckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		43C6D43F2B29FBB70076EA02 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		43C6D4412B2B5B6B0076EA02 /* CluckerApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluckerApi.swift; sourceTree = "<group>"; };
 		43C948DB2B22CD8A0031373F /* ComposeCluckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeCluckView.swift; sourceTree = "<group>"; };
 		43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cluck.swift; sourceTree = "<group>"; };
 		43D0AD7F2B1FC57100CF05A3 /* CluckRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CluckRow.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				43D0AD832B1FC8B400CF05A3 /* ModelData.swift */,
 				43D0AD7D2B1FC4ED00CF05A3 /* Cluck.swift */,
 				43F6069E2B25091600B989A4 /* Follow.swift */,
+				43C6D4412B2B5B6B0076EA02 /* CluckerApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				43D0AD822B1FC77600CF05A3 /* ClucksList.swift in Sources */,
 				43F6069B2B25064A00B989A4 /* ProfileView.swift in Sources */,
 				43F606AB2B2515F000B989A4 /* FollowList.swift in Sources */,
+				43C6D4422B2B5B6C0076EA02 /* CluckerApi.swift in Sources */,
 				43F606AD2B25177000B989A4 /* FollowView.swift in Sources */,
 				43DDA8BD2B0D06C20010B71F /* ContentView.swift in Sources */,
 				43DDA8BB2B0D06C20010B71F /* cluckerApp.swift in Sources */,

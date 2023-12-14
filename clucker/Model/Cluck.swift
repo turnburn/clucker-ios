@@ -14,3 +14,7 @@ struct Cluck: Hashable, Codable {
     var created_at: String
     var is_deleted: Bool
 }
+
+struct ClucksResponse: Codable {
+    var clucks: [Cluck]
+}

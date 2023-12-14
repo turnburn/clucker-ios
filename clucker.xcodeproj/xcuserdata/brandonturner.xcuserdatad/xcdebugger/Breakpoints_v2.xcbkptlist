@@ -20,5 +20,53 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "606BDB99-07B5-4481-B52A-C6867BEB0307"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "clucker/Model/CluckerApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getClucksByAuthor(author:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "606BDB99-07B5-4481-B52A-C6867BEB0307 - bdae99463304afad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in clucker.CluckerApi.getClucksByAuthor(author: Swift.String, completion: (Swift.Array&lt;clucker.Cluck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "clucker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonturner/git/clucker-ios/clucker/Model/CluckerApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "606BDB99-07B5-4481-B52A-C6867BEB0307 - bdae99463304afad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in clucker.CluckerApi.getClucksByAuthor(author: Swift.String, completion: (Swift.Array&lt;clucker.Cluck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "clucker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brandonturner/git/clucker-ios/clucker/Model/CluckerApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

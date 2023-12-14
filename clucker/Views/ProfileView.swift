@@ -8,22 +8,38 @@
 import SwiftUI
 
 struct ProfileView: View {
+    
+    @State var clucksByAuthor = [Cluck]()
+    
     var body: some View {
         NavigationStack {
-            
-            VStack {
-                ProfileHeader()
+            VStack()
+            {
+                VStack()
+                {
+                    ProfileHeader()
                     .padding()
-
-                ClucksList(clucks: clucksByUser)
+                    
+                    if(clucksByAuthor.isEmpty)
+                    {
+                        ProgressView()
+                        Spacer()
+                    }
+                    else
+                    {
+                        ClucksList(clucks: clucksByAuthor)
+                    }
+                    
+                }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(
                 Color(red: 56 / 255, green: 189 / 255, blue: 248 / 255)
             )
             .navigationTitle("Profile")
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
-                    
+
                     HStack {
                         Button("Clucks") {
                             print("Filter for Clucks by User")
@@ -35,6 +51,13 @@ struct ProfileView: View {
                     }
 
                 }
+            }
+            .onAppear() {
+                CluckerApi().getClucksByAuthor(author: "bcturner", completion:
+                    { (clucks)
+                    in self.clucksByAuthor = clucks
+                        }
+                )
             }
         }
     }
