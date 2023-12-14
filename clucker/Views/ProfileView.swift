@@ -10,6 +10,7 @@ import SwiftUI
 struct ProfileView: View {
     
     @State var clucksByAuthor = [Cluck]()
+    var user : String
     
     var body: some View {
         NavigationStack {
@@ -17,7 +18,7 @@ struct ProfileView: View {
             {
                 VStack()
                 {
-                    ProfileHeader()
+                    ProfileHeader(user: user)
                     .padding()
                     
                     if(clucksByAuthor.isEmpty)
@@ -53,7 +54,7 @@ struct ProfileView: View {
                 }
             }
             .onAppear() {
-                CluckerApi().getClucksByAuthor(author: "bcturner", completion:
+                CluckerApi().getClucksByAuthor(author: user, completion:
                     { (clucks)
                     in self.clucksByAuthor = clucks
                         }
@@ -64,5 +65,5 @@ struct ProfileView: View {
 }
 
 #Preview {
-    ProfileView()
+    ProfileView(user: "bcturner")
 }

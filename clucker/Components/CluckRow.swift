@@ -32,10 +32,15 @@ struct CluckRow: View {
         {
             VStack(alignment: .leading) {
                 HStack{
-                    
-                    Text(Cluck.author)
-                        .font(.system(size: 20, design: .monospaced))
-                        .bold()
+
+                    NavigationLink(destination: ProfileView(user: Cluck.author),
+                    label: {
+                        Text(Cluck.author)
+                            .font(.system(size: 20, design: .monospaced)).foregroundColor(.black)
+                            .bold()
+                            .contentShape(Rectangle())
+                    })
+
 
                     Spacer()
 

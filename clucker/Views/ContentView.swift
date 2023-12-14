@@ -39,7 +39,7 @@ struct ContentView: View {
                         }
                         Spacer()
                         NavigationLink("Profile") {
-                            ProfileView()
+                            ProfileView(user: "bcturner")
                         }
                     }
 

@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ProfileHeader: View {
+    
+    var user : String
+    
     var body: some View {
         NavigationStack {
             HStack
             {
                 VStack(alignment: .leading) {
                     HStack{
-                        Text(following[0].user_id)
+                        Text(user)
                             .font(.system(size: 20, design: .monospaced))
                             .bold()
                         Spacer()
@@ -31,7 +34,7 @@ struct ProfileHeader: View {
                     HStack(alignment: .top)  {
                         
                         // Need API to get bio
-                        Text("Brand on God")
+                        Text("Example Bio")
                             .font(.system(size: 18, design: .monospaced))
                         Spacer()
                         
@@ -62,5 +65,5 @@ struct ProfileHeader: View {
 }
 
 #Preview {
-    ProfileHeader()
+    ProfileHeader(user: "bcturner")
 }
