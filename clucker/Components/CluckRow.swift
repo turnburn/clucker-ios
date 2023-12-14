@@ -53,7 +53,6 @@ struct CluckRow: View {
                                          content: {
                                     Text("2 likes\n\nuser 1\nuser 2")
                                         .padding(20)
-                                        .presentationCompactAdaptation(.none)
                                         .font(.system(size: 15, weight: .bold, design: .monospaced)).foregroundColor(.black)
                                 })
                         .onTapGesture {
