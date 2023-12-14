@@ -11,6 +11,8 @@ struct ContentView: View {
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
+    @State var currentUser = "bcturner"
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -39,7 +41,7 @@ struct ContentView: View {
                         }
                         Spacer()
                         NavigationLink("Profile") {
-                            ProfileView(user: "bcturner")
+                            ProfileView(user: currentUser)
                         }
                     }
 

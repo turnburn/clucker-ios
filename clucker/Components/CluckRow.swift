@@ -11,7 +11,7 @@ struct CluckRow: View {
     var Cluck : Cluck
     var CluckDate : Date;
     @State private var showLikes = false;
-    
+        
     let formatter = ISO8601DateFormatter();
     
     init(Cluck : Cluck) {
@@ -71,7 +71,7 @@ struct CluckRow: View {
                     Text(CluckDate.formatted(date: Date.FormatStyle.DateStyle.abbreviated, time: .shortened))
                         .font(.system(size: 14))
                     Spacer()
-                    LikeButton(isSet: false)
+                    LikeButton(cluck_id: Cluck.id)
                 }
                     
             }
@@ -84,6 +84,7 @@ struct CluckRow: View {
                 .strokeBorder(.black, lineWidth: 8, antialiased: true)
         )
         .listRowBackground(Color(red: 56 / 255, green: 189 / 255, blue: 248 / 255))
+
         
     }
 }

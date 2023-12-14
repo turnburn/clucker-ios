@@ -9,7 +9,8 @@ import SwiftUI
 
 struct LikeButton: View {
     
-    @State var isSet: Bool
+    @State var cluck_id: Int
+    @State var isSet = false;
     
     var body: some View {
         Image(isSet ? "like.fill" : "like")
@@ -18,9 +19,24 @@ struct LikeButton: View {
             .onTapGesture {
                 isSet.toggle()
             }
+            .onAppear() {
+                CluckerApi().hasUserLikedCluck(user: "bcturner", cluck_id: cluck_id, completion: { (data, error) in
+                    if error != nil {
+                            self.isSet = false;
+                    } else if data != nil {
+                            self.isSet = true;
+                        }
+                    }
+                  )
+            }
+    }
+    
+    func updateLike(enabled : Bool)
+    {
+        isSet = enabled;
     }
 }
 
 #Preview {
-    LikeButton(isSet: false)
+    LikeButton(cluck_id: 770)
 }

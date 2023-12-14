@@ -18,3 +18,9 @@ struct Cluck: Hashable, Codable {
 struct ClucksResponse: Codable {
     var clucks: [Cluck]
 }
+
+struct LikeDetailResponse: Codable {
+    var id: Int
+    var user: String
+    var cluck: Int
+}

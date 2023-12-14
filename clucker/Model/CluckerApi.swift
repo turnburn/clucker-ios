@@ -12,13 +12,16 @@ class CluckerApi {
     
     let clucksRoute = "cluck"
     let authorRoute = "clucks_author?author="
+    let likeDetailRoute = "like_detail"
+    
     
     func getAllClucks() {
         // TODO
     }
     
     func getClucksByAuthor(author: String, completion:@escaping ([Cluck]) -> ()) {
-        URLSession.shared.dataTask(with: URL(string : baseURLString+authorRoute+author)!) { data,_,_  in
+        let url = URL(string : baseURLString+authorRoute+author)
+        URLSession.shared.dataTask(with: url!) { data,_,_  in
             let clucks = try? JSONDecoder().decode(ClucksResponse.self, from: data!)
             
             DispatchQueue.main.async {
@@ -27,4 +30,22 @@ class CluckerApi {
         }
         .resume()
     }
+
+    func hasUserLikedCluck(user: String, cluck_id : Int, completion: @escaping (Data?, Error?) -> Void) {
+        let session = URLSession.shared
+        let url = URL(string : baseURLString+likeDetailRoute+"?user="+user+"&cluck="+String(cluck_id))
+        let task = session.dataTask(with: url!) { (data, response, error) in
+            if let error = error {
+                completion(nil, error)
+                return
+            }
+
+            if let data = data {
+                completion(data, nil)
+            }
+        }
+
+        task.resume()
+    }
+
 }
