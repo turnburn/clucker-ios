@@ -21,10 +21,12 @@ struct LikeButton: View {
             }
             .onAppear() {
                 CluckerApi().hasUserLikedCluck(user: "bcturner", cluck_id: cluck_id, completion: { (data, error) in
-                    if error != nil {
-                            self.isSet = false;
-                    } else if data != nil {
+                    if (data != nil) {
+                        if(!(data!.isEmpty))
+                        {
                             self.isSet = true;
+                        }
+                            
                         }
                     }
                   )
